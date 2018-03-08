@@ -9,7 +9,7 @@ RUN echo "http://dl-4.alpinelinux.org/alpine/v3.1/main" >> /etc/apk/repositories
     echo -e "include /etc/redis-local.conf\n" >> /etc/redis.conf
 
 # Add the files
-ADD root /
+#ADD root /
 
 VOLUME ["/data"]
 
